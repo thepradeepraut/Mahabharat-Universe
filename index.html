@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahabharat Universe - Interactive Encyclopedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Roboto:wght@300;400;500;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="character-images.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Mahabharat Universe</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#weapons">Weapons</a></li>
+                <li><a href="#war-room">War Room</a></li>
+                <li><a href="#teachings">Teachings</a></li>
+                <li><a href="#kingdoms">Kingdoms</a></li>
+                <li><a href="#family-tree">Family Tree</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="mandala-pattern"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-text="Mahabharat Universe">Mahabharat Universe</h1>
+            <p class="hero-subtitle">An Interactive Journey of India's Greatest Epic</p>
+            <div class="scroll-indicator">
+                <span>Scroll to Explore</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character Profiles Section -->
+    <section id="characters" class="section characters-section">
+        <div class="container">
+            <h2 class="section-title">Legendary Characters</h2>
+            <p class="section-subtitle">Warriors, Kings, and Divine Beings of the Mahabharata</p>
+            <div class="characters-grid" id="charactersGrid"></div>
+        </div>
+    </section>
+
+    <!-- Epic Timeline Section -->
+    <section id="timeline" class="section timeline-section">
+        <div class="container">
+            <h2 class="section-title">Epic Timeline</h2>
+            <p class="section-subtitle">From Birth to Aftermath: The Journey Through Time</p>
+            <div class="timeline" id="timelineContainer"></div>
+        </div>
+    </section>
+
+    <!-- Weapons & Artifacts Section -->
+    <section id="weapons" class="section weapons-section">
+        <div class="container">
+            <h2 class="section-title">Divine Weapons &amp; Artifacts</h2>
+            <p class="section-subtitle">Celestial Astras and Sacred Armaments</p>
+            <div class="weapons-grid" id="weaponsGrid"></div>
+        </div>
+    </section>
+
+    <!-- War Room Section -->
+    <section id="war-room" class="section war-section">
+        <div class="container">
+            <h2 class="section-title">War Room: 18 Days of Kurukshetra</h2>
+            <p class="section-subtitle">The Greatest War Ever Fought</p>
+            <div class="war-timeline" id="warTimeline"></div>
+        </div>
+    </section>
+
+    <!-- Teachings & Philosophy Section -->
+    <section id="teachings" class="section teachings-section">
+        <div class="container">
+            <h2 class="section-title">Bhagavad Gita: Eternal Wisdom</h2>
+            <p class="section-subtitle">Divine Knowledge from Lord Krishna</p>
+            <div class="teaching-widget">
+                <div class="teaching-card" id="teachingCard"></div>
+                <div class="teaching-controls">
+                    <button class="btn-teaching" id="prevTeaching">← Previous</button>
+                    <button class="btn-teaching" id="nextTeaching">Next →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kingdoms Section -->
+    <section id="kingdoms" class="section kingdoms-section">
+        <div class="container">
+            <h2 class="section-title">Sacred Kingdoms of Bharatvarsha</h2>
+            <p class="section-subtitle">Lands of Power, Glory, and Destiny</p>
+            <div class="kingdoms-grid" id="kingdomsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Family Tree Section -->
+    <section id="family-tree" class="section family-section">
+        <div class="container">
+            <h2 class="section-title">Kuru Dynasty: The Family Tree</h2>
+            <p class="section-subtitle">Bloodlines of Destiny</p>
+            <div class="family-tree" id="familyTree"></div>
+        </div>
+    </section>
+
+    <!-- Weapon Modal -->
+    <div class="modal" id="weaponModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Do You Know Section -->
+<section id="did-you-know" class="section did-you-know-section">
+  <div class="container">
+    <h2 class="section-title">Do You Know?</h2>
+    <p class="section-subtitle">21 Amazing Facts About Mahabharat</p>
+    <div class="dyk-grid" id="dykGrid"></div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mahabharat Universe. A tribute to India's greatest epic.</p>
+            <p>Built with devotion to dharma and ancient wisdom.</p>
+            <p>This website is made by (‽) Intrrobang Soft and developed by ✌️Pradeep Raut</p>
+            <p><a href="https://github.com/thepradeepraut" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold); text-decoration: none; font-weight: 600; transition: color 0.3s;" onmouseover="this.style.color='var(--color-gold-bright)'" onmouseout="this.style.color='var(--color-gold)'">🔗 View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

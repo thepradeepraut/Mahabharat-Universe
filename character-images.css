@@ -1,0 +1,386 @@
+/* ========================================
+   CHARACTER IMAGES CSS
+   Add your character images here!
+   ======================================== */
+
+/* HOW TO ADD IMAGES:
+   1. Replace 'path/to/image.jpg' with your actual image path
+   2. Uncomment the section for each character you have images for
+   3. Images can be local files or URLs
+   4. Recommended image size: 1200x900px or 4:3 aspect ratio
+*/
+
+/* Krishna - Divine Guide */
+[data-character="Krishna"] .character-placeholder {
+  background-image: url('characters/Krishna.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Hide placeholder text when image is loaded */
+[data-character="Krishna"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Arjuna - Greatest Archer */
+[data-character="arjuna"] .character-placeholder {
+  background-image: url('characters/arjuna.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="arjuna"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Karna - Tragic Hero */
+[data-character="karna"] .character-placeholder {
+  background-image: url('characters/karna.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="karna"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Draupadi - Princess of Panchala */
+[data-character="draupadi"] .character-placeholder {
+  background-image: url('characters/draupadi.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="draupadi"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Bhima - Strongest Warrior */
+[data-character="bhima"] .character-placeholder {
+  background-image: url('characters/bhima.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="bhima"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Yudhishthira - King of Righteousness */
+[data-character="yudhishthira"] .character-placeholder {
+  background-image: url('characters/yudhishthira.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="yudhishthira"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Duryodhana - Eldest Kaurava */
+[data-character="duryodhana"] .character-placeholder {
+  background-image: url('characters/duryodhana.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="duryodhana"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Bhishma - Grand Uncle */
+[data-character="bhishma"] .character-placeholder {
+  background-image: url('characters/bhishma.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="bhishma"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Drona - Royal Preceptor */
+[data-character="drona"] .character-placeholder {
+  background-image: url('characters/drona.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="drona"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Shakuni - Master Strategist */
+[data-character="shakuni"] .character-placeholder {
+  background-image: url('characters/shakuni.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="shakuni"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Gandhari - Queen of Hastinapura */
+[data-character="gandhari"] .character-placeholder {
+  background-image: url('characters/gandhari.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="gandhari"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Kunti - Queen Mother */
+[data-character="kunti"] .character-placeholder {
+  background-image: url('characters/kunti.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="kunti"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Parashurama - Sixth Avatar of Vishnu */
+[data-character="parashurama"] .character-placeholder {
+  background-image: url('characters/parashurama.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="parashurama"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Ekalavya - Self-Taught Master Archer */
+[data-character="ekalavya"] .character-placeholder {
+  background-image: url('characters/ekalavya.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="ekalavya"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Abhimanyu - Young Warrior */
+[data-character="abhimanyu"] .character-placeholder {
+  background-image: url('characters/abhimanyu.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="abhimanyu"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Vidura - Prime Minister */
+[data-character="vidura"] .character-placeholder {
+  background-image: url('characters/vidura.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="vidura"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Ashwatthama - Immortal Warrior */
+[data-character="ashwatthama"] .character-placeholder {
+  background-image: url('characters/ashwatthama.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="ashwatthama"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* Dhritarashtra - Blind King */
+[data-character="dhritarashtra"] .character-placeholder {
+  background-image: url('characters/dhritarashtra.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+[data-character="dhritarashtra"] .character-placeholder .placeholder-overlay {
+  display: none;
+}
+
+/* ========================================
+   OPTIONAL: Add overlay gradient for better text visibility
+   ======================================== */
+
+/* Add dark overlay for better text readability */
+.character-placeholder::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom ,
+    transparent 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  z-index: 1;
+}
+
+.placeholder-overlay {
+  position: relative;
+  z-index: 2;
+}
+
+/* ========================================
+   ALTERNATIVE: Using URLs instead of local files
+   ======================================== */
+
+/*
+Example with online image URLs:
+
+[data-character="krishna"] .character-placeholder {
+  background-image: url('https://example.com/krishna.jpg');
+  background-size: cover;
+  background-position: center;
+}
+*/
+
+/* ========================================
+   MOBILE RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+  .character-placeholder {
+    min-height: 400px;
+  }
+}
+
+/* ========================================
+   HOVER EFFECTS (Optional Enhancement)
+   ======================================== */
+
+.card-image:hover .character-placeholder {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* ========================================
+   LOADING STATE (Optional)
+   ======================================== */
+
+/* Show a loading spinner while image loads */
+.character-placeholder::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(212, 175, 55, 0.3);
+  border-top-color: rgba(212, 175, 55, 0.8);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 0;
+}
+
+@keyframes spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Hide spinner when image is loaded */
+[data-character] .character-placeholder[style*="background-image"]::before {
+  display: none;
+}
+
+/* ========================================
+   FALLBACK PATTERNS
+   If no image is provided, show styled background
+   ======================================== */
+
+/* Show pattern only when no background image */
+.character-placeholder:not([style*="background-image"]) .placeholder-pattern {
+  opacity: 1;
+}
+
+.character-placeholder[style*="background-image"] .placeholder-pattern {
+  opacity: 0;
+}
+
+/* ========================================
+   IMAGE QUALITY OPTIMIZATION
+   ======================================== */
+
+/* Ensure images look crisp */
+.character-placeholder {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Prevent image pixelation on zoom */
+.card-image {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+/* ========================================
+   ACCESSIBILITY
+   ======================================== */
+
+/* Add focus styles for keyboard navigation */
+.character-card:focus-within {
+  outline: 3px solid #FFD700;
+  outline-offset: 2px;
+}
+
+/* Screen reader text for images */
+.character-placeholder::after {
+  content: attr(aria-label);
+  position: absolute;
+  left: -9999px;
+}
+
+/* ========================================
+   PRINT STYLES (Optional)
+   ======================================== */
+
+@media print {
+  .character-placeholder {
+    background-size: contain !important;
+    page-break-inside: avoid;
+  }
+}
+
+/* ========================================
+   NOTES FOR CUSTOMIZATION:
+   
+   1. To add a new character image:
+      - Add the image file to 'characters/' folder
+      - The filename should match: [charactername].jpg
+      - Character names are automatically lowercase in code
+   
+   2. Supported image formats:
+      - JPG/JPEG (recommended for photos)
+      - PNG (for transparent backgrounds)
+      - WEBP (modern format, best compression)
+   
+   3. Best practices:
+      - Image resolution: 1200x900px or higher
+      - File size: Keep under 500KB for fast loading
+      - Aspect ratio: 4:3 or 16:9 works best
+   
+   4. To disable an image:
+      - Comment out the specific character section
+      - The placeholder will show instead
+   
+   5. To use online images:
+      - Replace local path with full URL
+      - Example: url('https://yoursite.com/image.jpg')
+   
+   ======================================== */
