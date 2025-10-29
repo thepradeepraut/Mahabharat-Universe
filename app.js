@@ -16,7 +16,7 @@ const characters = [
   {
     name: 'Arjuna',
     role: 'Greatest Archer, Third Pandava',
-    image: 'characters/arjuna.jpg',
+    image: 'characters/Arjuna.jpg',
     birth: 'Born to Kunti through invocation of Indra, the king of gods. Third of the five Pandava brothers.',
     iconic_quote: 'I will not fight against my own kinsmen. What pleasure can we derive from killing our relatives? Better to live on alms than to enjoy life at the cost of their blood.',
     key_moments: ['Won Draupadi\'s hand in the Swayamvara by piercing the fish eye', 'Received divine weapons including Gandiva bow and Pashupatastra', 'Killed Karna on the 17th day of war using Anjalika astra', 'Defeated Bhishma with Krishna\'s guidance', 'Received the teachings of Bhagavad Gita from Krishna'],
@@ -29,7 +29,7 @@ const characters = [
   {
     name: 'Karna',
     role: 'Tragic Hero, King of Anga, Supreme Archer',
-    image: 'characters/karna.jpg',
+    image: 'characters/Karna.jpg',
     birth: 'Born to Kunti through invocation of Surya before her marriage. Abandoned as infant, raised by charioteer Adhiratha and Radha.',
     iconic_quote: 'I would rather die with honor than live with humiliation. My loyalty to Duryodhana is my dharma.',
     key_moments: ['Humiliated at Draupadi\'s Swayamvara for his perceived low caste', 'Made King of Anga by Duryodhana', 'Gave away his divine Kavach and Kundala to Indra', 'Received Vasavi Shakti weapon from Indra', 'Killed by Arjuna when his chariot wheel got stuck on day 17'],
@@ -42,7 +42,7 @@ const characters = [
   {
     name: 'Draupadi',
     role: 'Princess of Panchala, Common Wife of Five Pandavas',
-    image: 'characters/draupadi.jpg',
+    image: 'characters/Draupadi.jpg',
     birth: 'Born from the sacred fire during King Drupada\'s yajna. Also called Panchali and Yajnaseni.',
     iconic_quote: 'I will not tie my hair until it is washed with the blood of Dushasana and I stand on Duryodhana\'s corpse.',
     key_moments: ['Won by Arjuna in Swayamvara, married all five Pandavas', 'Humiliated in Kuru court during the dice game', 'Saved by Krishna when Dushasana tried to disrobe her', 'Vowed revenge against Kauravas', 'All five sons killed by Ashwatthama on the final night'],
@@ -55,7 +55,7 @@ const characters = [
   {
     name: 'Bhima',
     role: 'Strongest Warrior, Second Pandava',
-    image: 'characters/bhima.jpg',
+    image: 'characters/Bhima.jpg',
     birth: 'Born to Kunti through invocation of Vayu, the wind god. Known for immense physical strength.',
     iconic_quote: 'I will tear open Dushasana\'s chest and drink his blood. I will break Duryodhana\'s thighs with my mace.',
     key_moments: ['Killed demon Bakasura to protect villagers', 'Killed all 100 Kaurava brothers in the war', 'Ripped open Dushasana\'s chest and drank his blood', 'Broke Duryodhana\'s thighs in final mace duel', 'Killed Jarasandha in a wrestling match'],
@@ -68,7 +68,7 @@ const characters = [
   {
     name: 'Yudhishthira',
     role: 'King of Righteousness, Eldest Pandava',
-    image: 'characters/yudhishthira.jpg',
+    image: 'characters/Yudhishthira.jpg',
     birth: 'Born to Kunti through invocation of Dharma (Yama), god of righteousness. Known for unwavering adherence to truth.',
     iconic_quote: 'Truth is the highest virtue, and adherence to dharma is the supreme duty of a king.',
     key_moments: ['Lost kingdom, brothers, and wife in the game of dice', 'Successfully completed 13 years of exile including incognito year', 'Killed Shalya on the 18th day of war', 'Crowned emperor of Hastinapura after the war', 'Only one to enter heaven in mortal form'],
@@ -81,7 +81,7 @@ const characters = [
   {
     name: 'Duryodhana',
     role: 'Eldest Kaurava, Crown Prince of Hastinapura',
-    image: 'characters/duryodhana.jpg',
+    image: 'characters/Duryodhana.jpg',
     birth: 'Eldest of 100 Kaurava brothers, born to Gandhari and Dhritarashtra. Embodiment of ambition and pride.',
     iconic_quote: 'I will not give the Pandavas even land enough to drive a needle into. Let them try to take it by force.',
     key_moments: ['Plotted to kill Pandavas in the lac palace', 'Orchestrated the dice game that humiliated Draupadi', 'Refused to return Pandava kingdom after exile', 'Appointed Bhishma, Drona, Karna, and Shalya as commanders', 'Killed by Bhima in mace duel on day 18'],
@@ -94,7 +94,7 @@ const characters = [
   {
     name: 'Bhishma',
     role: 'Grand Uncle, Invincible Warrior, Pillar of Hastinapura',
-    image: 'characters/bhishma.jpg',
+    image: 'characters/Bhishma.jpg',
     birth: 'Son of King Shantanu and Goddess Ganga. Took vow of celibacy to ensure father\'s marriage to Satyavati.',
     iconic_quote: 'I have taken a vow to protect the throne of Hastinapura. I will fight for whoever sits on it, even if it costs me my life.',
     key_moments: ['Took terrible vow of celibacy and renounced throne', 'Blessed with Ichcha Mrityu (death at will)', 'Led Kaurava army for first 10 days', 'Fell to Shikhandi and Arjuna\'s arrows', 'Delivered wisdom to Yudhishthira from bed of arrows'],
@@ -107,7 +107,7 @@ const characters = [
   {
     name: 'Dronacharya',
     role: 'Royal Preceptor, Master of Weapons',
-    image: 'characters/drona.jpg',
+    image: 'characters/Drona.jpg',
     birth: 'Born from a pot to sage Bharadwaja. Master archer and teacher of both Pandavas and Kauravas.',
     iconic_quote: 'Arjuna alone deserves to be called the greatest archer. His focus and devotion to the art are unmatched.',
     key_moments: ['Taught archery to both Pandavas and Kauravas', 'Demanded Ekalavya\'s thumb as guru dakshina', 'Commanded Kaurava army from day 11-15', 'Killed when he laid down weapons upon hearing of Ashwatthama\'s death', 'Father of Ashwatthama'],
@@ -120,7 +120,7 @@ const characters = [
   {
     name: 'Shakuni',
     role: 'Prince of Gandhara, Master Strategist, Maternal Uncle of Kauravas',
-    image: 'characters/shakuni.jpg',
+    image: 'characters/Shakuni.jpg',
     birth: 'Son of King Subala of Gandhara. Brother of Gandhari. Known as the mastermind behind the Kurukshetra War.',
     iconic_quote: 'I will ensure that all 100 sons of Dhritarashtra meet their doom. My revenge shall be complete.',
     key_moments: ['Accompanied Gandhari to Hastinapura for her marriage to blind Dhritarashtra', 'Won the dice game against Yudhishthira using his cunning skills', 'Caused the exile of Pandavas through manipulation and foul play', 'Advised Duryodhana in planning against Pandavas throughout their lives', 'Killed by Sahadeva on the 18th day of Kurukshetra War'],
@@ -133,7 +133,7 @@ const characters = [
   {
     name: 'Gandhari',
     role: 'Queen of Hastinapura, Mother of 100 Kauravas',
-    image: 'characters/gandhari.jpg',
+    image: 'characters/Gandhari.jpg',
     birth: 'Princess of Gandhara, daughter of King Subala. Blindfolded herself after marriage to blind Dhritarashtra to share his suffering.',
     iconic_quote: 'A mother\'s curse knows no bounds. Even Krishna cannot escape the consequences of allowing my sons to die.',
     key_moments: ['Blindfolded herself voluntarily after marrying blind Dhritarashtra', 'Gave birth to 100 Kaurava sons and one daughter Dushala', 'Witnessed the humiliation of Draupadi but remained silent', 'Lost all 100 sons in the Kurukshetra War', 'Cursed Krishna that Yadava dynasty would destroy itself'],
@@ -146,7 +146,7 @@ const characters = [
   {
     name: 'Kunti',
     role: 'Queen Mother, Mother of Pandavas and Karna',
-    image: 'characters/kunti.jpg',
+    image: 'characters/Kunti.jpg',
     birth: 'Princess of Yadava dynasty, adopted daughter of King Kuntibhoja. Received divine boon to invoke gods and bear children.',
     iconic_quote: 'Karna is my firstborn son, but I abandoned him out of fear. This secret I carried my whole life.',
     key_moments: ['Invoked Sun god Surya in youth and gave birth to Karna, whom she abandoned', 'Married King Pandu and bore three eldest Pandavas (Yudhishthira, Bhima, Arjuna)', 'Raised all five Pandavas after Madri\'s death', 'Asked Karna for a boon to spare her other five sons', 'Revealed Karna\'s true identity after his death'],
@@ -159,7 +159,7 @@ const characters = [
   {
     name: 'Parashurama',
     role: 'Sixth Avatar of Vishnu, Immortal Warrior Sage, Teacher of Warriors',
-    image: 'characters/parashurama.jpg',
+    image: 'characters/Parashurama.jpg',
     birth: 'Born to Brahmin sage Jamadaghi and princess Renuka. One of the ten avatars of Lord Vishnu, blessed with immortality.',
     iconic_quote: 'I have vowed to rid the earth of all corrupt Kshatriyas. My axe shall deliver justice to those who abuse their power.',
     key_moments: ['Trained Bhishma in the art of warfare at Goddess Ganga\'s request', 'Taught Dronacharya the knowledge of Brahmastra and divine weapons', 'Accepted Karna as student believing him to be a Brahmin', 'Fought Bhishma in an epic battle that ended in a draw', 'Cursed Karna when he discovered his true Kshatriya identity'],
@@ -172,7 +172,7 @@ const characters = [
   {
     name: 'Ekalavya',
     role: 'Prince of Nishadas, Self-Taught Master Archer',
-    image: 'characters/ekalavya.jpg',
+    image: 'characters/Ekalavya.jpg',
     birth: 'Son of Devashrava (Vasudeva\'s brother), making him Krishna\'s cousin. Adopted and raised by King Hiranyadhanus of Nishada tribe.',
     iconic_quote: 'A true student needs no teacher but devotion. My guru\'s image is enough to guide me to mastery.',
     key_moments: ['Rejected by Drona due to his Nishada tribal background', 'Practiced archery before a clay statue of Drona', 'Shot seven arrows into a dog\'s mouth without harming it', 'Cut off his right thumb as guru dakshina when Drona demanded it', 'Later became king of Nishadas and was killed by Krishna'],
@@ -185,7 +185,7 @@ const characters = [
   {
     name: 'Abhimanyu',
     role: 'Young Warrior, Son of Arjuna',
-    image: 'characters/abhimanyu.jpg',
+    image: 'characters/Abhimanyu.jpg',
     birth: 'Son of Arjuna and Subhadra (Krishna\'s sister). Avatar of Varchas, son of moon god Soma. Learned Chakravyuha entry technique while in the womb.',
     iconic_quote: 'I know how to enter the Chakravyuha. I will break through their formation and bring victory to the Pandavas.',
     key_moments: ['Married Princess Uttara of Matsya Kingdom', 'Entered the deadly Chakravyuha formation on day 13 of war', 'Killed Lakshmana (Duryodhana\'s son) and many Kaurava warriors', 'Fought bravely against six maharathis who attacked him simultaneously', 'Died at age 16; his son Parikshit continued the Kuru lineage'],
@@ -198,7 +198,7 @@ const characters = [
   {
     name: 'Vidura',
     role: 'Prime Minister of Hastinapura, Voice of Dharma and Wisdom',
-    image: 'characters/vidura.jpg',
+    image: 'characters/Vidura.jpg',
     birth: 'Born to sage Vyasa and maid Parishrami through niyoga. Half-brother to Dhritarashtra and Pandu. Avatar of Dharma (Yama) itself.',
     iconic_quote: 'Righteousness is the foundation of a kingdom. A king who ignores dharma will bring ruin to his people.',
     key_moments: ['Served as Prime Minister and chief advisor in Hastinapura', 'Warned Dhritarashtra against the dice game and Draupadi\'s humiliation', 'Advised Pandavas secretly during their exile', 'Famous for Vidura Neeti - his discourse on practical wisdom', 'Renounced worldly life and merged with Yudhishthira before the war'],
@@ -211,7 +211,7 @@ const characters = [
   {
     name: 'Ashwatthama',
     role: 'Immortal Warrior, Son of Drona, Wielder of Divine Weapons',
-    image: 'characters/ashwatthama.jpg',
+    image: 'characters/Ashwatthama.jpg',
     birth: 'Son of Dronacharya and Kripi. Born with a gem on his forehead that made him invincible. Excelled in the use of astras under his father\'s tutelage.',
     iconic_quote: 'I will avenge my father\'s unjust death. The Panchalas shall pay with their blood for their treachery.',
     key_moments: ['Fought alongside Kauravas throughout the war with great skill', 'Used Narayanastra against Pandava forces after Drona\'s death', 'Led night raid on day 18, killing all Pandava sons while sleeping', 'Fired Brahmastra at Pandava women\'s wombs to end their lineage', 'Cursed by Krishna with immortality and eternal suffering'],
@@ -224,7 +224,7 @@ const characters = [
   {
     name: 'Dhritarashtra',
     role: 'Blind King of Hastinapura, Father of 100 Kauravas',
-    image: 'characters/dhritarashtra.jpg',
+    image: 'characters/Dhritarashtra.jpg',
     birth: 'Born blind to Ambika and sage Vyasa through niyoga. Eldest son but denied throne due to blindness. Married Gandhari who blindfolded herself.',
     iconic_quote: 'My love for my sons has blinded me more than my eyes ever could. I knew their actions were wrong, yet I remained silent.',
     key_moments: ['Denied throne of Hastinapura due to his blindness', 'Fathered 100 Kaurava sons with Gandhari', 'Allowed the dice game despite Vidura\'s warnings', 'Remained passive during Draupadi\'s humiliation', 'Lost all 100 sons in Kurukshetra War due to his attachment'],
@@ -237,7 +237,7 @@ const characters = [
   {
   name: 'Nakula',
   role: 'Fourth Pandava, Master Swordsman & Horse Trainer',
-  image: 'characters/nakula.jpg',
+  image: 'characters/Nakula.jpg',
   birth: 'Born to Madri by invocation of the Ashwini Kumaras. Twin brother of Sahadeva.',
   iconic_quote: 'A skilled warrior’s greatest asset is grace under pressure—even in moments of war.',
   key_moments: ['Chose to fight for Pandavas in the war despite being youngest','Defeated many prominent Kaurava warriors', 'Trained and maintained the best horses during exile','Played a key role in finding water in the forest during Pandavas’ exile','Only Pandava not wounded in the war'],
@@ -250,7 +250,7 @@ const characters = [
 {
   name: 'Sahadeva',
   role: 'Fifth Pandava, Astrologer, Wise Counselor',
-  image: 'characters/sahadeva.jpg',
+  image: 'characters/Sahadeva.jpg',
   birth: 'Born to Madri by invocation of the Ashwini Kumaras. Twin brother of Nakula.',
   iconic_quote: 'True wisdom lies in knowing what must be done, even when fate is hidden.',
   key_moments: ['Participated actively in the war, defeating several Kaurava warriors','Advised Krishna on auspicious time for war; predicted many key outcomes','Ate his father Pandu’s flesh (as a child) and gained immense knowledge','Helped in identifying omens and signs during exile and war','Killed Shakuni on the 18th day of the war'],
@@ -263,7 +263,7 @@ const characters = [
 {
   name: 'Ghatotkacha',
   role: 'Son of Bhima, Rakshasa Warrior',
-  image: 'characters/ghatotkacha.jpg',
+  image: 'characters/Ghatotkacha.jpg',
   birth: 'Born to Bhima and Hidimbi, a rakshasa princess, during Pandavas’ exile.',
   iconic_quote: 'In battle, I am the terror that moves with the wind and strikes with the thunder.',
   key_moments: ['Fought bravely for Pandavas, wielding magical powers and flying in the air','Terrified the Kaurava army with his massive size and demon magic','Sacrificed life to ensure Arjuna’s safety; triggered Karna to use Vasavi Shakti','Defeated many major adversaries with supernatural strength and illusions','Remembered as a war hero who died at Karna’s hands'],
