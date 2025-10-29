@@ -35,7 +35,7 @@
 
 /* Karna - Tragic Hero */
 [data-character="karna"] .character-placeholder {
-  background-image: url('characters/karna.jpg');
+  background-image: url('characters/Karna.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -383,4 +383,5 @@ Example with online image URLs:
       - Replace local path with full URL
       - Example: url('https://yoursite.com/image.jpg')
    
+
    ======================================== */
