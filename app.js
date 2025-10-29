@@ -3,7 +3,7 @@ const characters = [
   {
     name: 'Krishna',
     role: 'Divine Guide, Charioteer, Strategist',
-    image: 'characters/krishna.jpg',
+    image: 'characters/Krishna.jpg',
     birth: 'Eighth avatar of Lord Vishnu, born to Devaki and Vasudeva in Mathura. Raised by Yashoda and Nanda in Gokul to escape King Kansa\'s tyranny.',
     iconic_quote: 'You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction.',
     key_moments: ['Delivered the Bhagavad Gita discourse to Arjuna on the battlefield', 'Served as Arjuna\'s charioteer throughout the Kurukshetra War', 'Revealed his universal form (Vishvarupa) to Arjuna', 'Orchestrated strategic victories for the Pandavas', 'Prevented Ashwatthama\'s Brahmastra from killing Uttara\'s unborn child'],
